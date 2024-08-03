@@ -1,0 +1,2 @@
+msgid "Omnitrix"
+msgstr "This is an example in device"

@@ -1,0 +1,62 @@
+{
+  "configVersion": "v2",
+  "app": {
+    "appId": 1036949,
+    "appName": "Omnitrix",
+    "appType": "app",
+    "version": {
+      "code": 1,
+      "name": "2.0.0"
+    },
+    "icon": "icon.png",
+    "vender": "Kacper",
+    "description": "Omnitrix app"
+  },
+  "permissions": [],
+  "runtime": {
+    "apiVersion": {
+      "compatible": "1.0.0",
+      "target": "1.0.1",
+      "minVersion": "1.0.0"
+    }
+  },
+  "targets": {
+    "454x454-amazfit-gtr-3": {
+      "module": {
+        "page": {
+          "pages": [
+            "page/index",
+            "page/settings",
+            "page/customization",
+            "page/functions",
+            "page/playlist",
+            "page/prefabs"
+          ]
+        },
+        "app-side": {
+          "path": "app-side/index"
+        },
+        "setting": {
+          "path": "setting/index"
+        }
+      },
+      "platforms": [
+        {
+          "name": "Verona",
+          "deviceSource": 226
+        },
+        {
+          "name": "VeronaW",
+          "deviceSource": 227
+        }
+      ],
+      "designWidth": 454
+    }
+  },
+  "i18n": {
+    "en-US": {
+      "appName": "Omnitrix"
+    }
+  },
+  "defaultLanguage": "en-US"
+}
